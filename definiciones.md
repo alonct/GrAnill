@@ -168,11 +168,11 @@ Dado $n\in \mathbb{N}^+$ llamaremos _**grupo diédrico de orden 2n**_ al grupo $
 
 >Sea $G$ un grupo. Un subconjunto $S\subset G$ se dice que es un **subgrupo** si la operación que define la estructura de grupo en $G$ induce también una estructura de grupo en $S$.
 
-Si $G$ es un grupo y $g\in G$, entonces $\lang g\rang = \{g^n:n\in\mathbb{Z}\}$ es un subfrupo de $G$ llamado _**grupo cíclico**_ generado por $g$.
+Si $G$ es un grupo y $g\in G$, entonces $\lang g\rang = \{g^n:n\in\mathbb{Z}\}$ es un subgrupo de $G$ llamado _**grupo cíclico**_ generado por $g$.
 
-Si $X\subset G$  arbitrario, entonces el conunto formado por todos los elementos de $G$ de la forma $x_1^{n_1}x_2^{n_2}\dots x_m^{n_m}$, con $x_1,\dots,x_m \in X$ y $n_1, \dots, n_m \in \mathbb{Z}$ es un subgrupo de $G$, que resulta ser el menor subgrupo de $G$ que contiene a $X$ y por tanto se llama _**subgrupo generado**_ generado por $X$ y se senota $\lang X \rang$.
+Si $X\subset G$  arbitrario, entonces el conunto formado por todos los elementos de $G$ de la forma $x_1^{n_1}x_2^{n_2}\dots x_m^{n_m}$, con $x_1,\dots,x_m \in X$ y $n_1, \dots, n_m \in \mathbb{Z}$ es un subgrupo de $G$, que resulta ser el menor subgrupo de $G$ que contiene a $X$ y por tanto se llama _**subgrupo generado**_ generado por $X$ y se denota $\lang X \rang$.
 
-Al conjunto $Z(G)= \{g\in G: gx=xg, \forall x\in G\}$ es sun subgrupo abeliano de $G$ llamado _**centro**_ de $G$. Más generalmente, sea $x\in G$, entonces $C_G(x)=\{g\in G:gx=xg\}$ es el _**centralizador**_ de $x$ en $G$.
+Al conjunto $Z(G)= \{g\in G: gx=xg, \forall x\in G\}$ es un subgrupo abeliano de $G$ llamado _**centro**_ de $G$. Más generalmente, sea $x\in G$, entonces $C_G(x)=\{g\in G:gx=xg\}$ es el _**centralizador**_ de $x$ en $G$.
 >Obsérvese que $Z(G)$ es la intersección de todos los centralizadores de los elementos de $G$ en $G$.
 
 Sea $G$ un grupo y $H$ un subgrupo de $G$. Se define la siguiente relación binaria en $G$:
@@ -229,4 +229,4 @@ Sea $G$ un grupo. Si $a,g\in G$, entonces se define el _**conjugado**_ de $g$ po
 
 Más generalmente, si $X$ es un subconjunto de $G$, entonces el conjugado de $X$ por $a$ es $X^{a}=\{x^{a}:x\in X\}$
 
-Se dice que dos elementos o subconuntos $x$ y $y$ de $G$ son __*conjugados*__ en $G$ si $x^{a}=y$ para algún $a\in G$.
+Se dice que dos elementos o subconjuntos $x$ y $y$ de $G$ son __*conjugados*__ en $G$ si $x^{a}=y$ para algún $a\in G$.
