@@ -230,3 +230,5 @@ Sea $G$ un grupo. Si $a,g\in G$, entonces se define el _**conjugado**_ de $g$ po
 Más generalmente, si $X$ es un subconjunto de $G$, entonces el conjugado de $X$ por $a$ es $X^{a}=\{x^{a}:x\in X\}$
 
 Se dice que dos elementos o subconjuntos $x$ y $y$ de $G$ son __*conjugados*__ en $G$ si $x^{a}=y$ para algún $a\in G$.
+
+Sea $\cdot: G \times X \rightarrow X$ una acción por la izquierda de un grupo $G$ en un conjunto $X$. Si $x\in X$ entonces $G\cdot x=\{g\cdot x:g\in G\}$ se llama __*órbita*__ de $x$ y $Estab_G(x) = \{g\in G : g\cdot x = x\}$ se llama __*estabilizador*__ de $x$ en $G$. Obsérvese que las órbitas formas una partición de $G$.
