@@ -29,6 +29,8 @@ Definiciones de Grupos y Anillos
   - [Homomorfismos de Grupo Y Teoremas de Isomorfía](#homomorfismos-de-grupo-y-teoremas-de-isomorfía)
   - [El orden de un elemento de un grupo](#el-orden-de-un-elemento-de-un-grupo)
   - [Conjugación y acciones de grupos en conjuntos](#conjugación-y-acciones-de-grupos-en-conjuntos)
+- [Tema 5: Grupos abelianos finitos](#tema-5-grupos-abelianos-finitos)
+  - [Grupos indescomponibles y $p$-grupos](#grupos-indescomponibles-y-p-grupos)
 
 
 # Tema 1: Anillos
@@ -232,3 +234,14 @@ Más generalmente, si $X$ es un subconjunto de $G$, entonces el conjugado de $X$
 Se dice que dos elementos o subconjuntos $x$ y $y$ de $G$ son __*conjugados*__ en $G$ si $x^{a}=y$ para algún $a\in G$.
 
 Sea $\cdot: G \times X \rightarrow X$ una acción por la izquierda de un grupo $G$ en un conjunto $X$. Si $x\in X$ entonces $G\cdot x=\{g\cdot x:g\in G\}$ se llama __*órbita*__ de $x$ y $Estab_G(x) = \{g\in G : g\cdot x = x\}$ se llama __*estabilizador*__ de $x$ en $G$. Obsérvese que las órbitas formas una partición de $G$.
+
+# Tema 5: Grupos abelianos finitos
+
+## Grupos indescomponibles y $p$-grupos
+
+Un grupo abeliano no nulo se dice que es __*indescomponible*__ si no es suma directa de dos subgrupos propios.
+
+Sea ahora $G$ un grupo no necesariamente abeliano ni finito:
+ - Si existe un entero positivo $n$ tal que $g^n=1\ \forall g\in G$ entonces el menor entero que cumple esta propiedad se le llama __exponente__ o __periodo__ de $G$. Denotaremos este número por $Exp(G)$ y n el caso de que no exista este número pondremos $Exp(G)=\infty$.
+ - Por otro lado, diremos que $G$ es __periódico__ o __de torsión__ si todo elemento de $G$ tiene orden finito, o sea si $\forall g\in G$ se verifica que $g^n=1$ para algun $n\in \N^+$.
+ - Sea $p$ un número primo. Un grupo en el que todo elemento tiene orden potencia de $p$ se dice que es un __$p$-grupo__.
